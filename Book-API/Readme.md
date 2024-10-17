@@ -30,5 +30,11 @@ A simple RESTful API for managing a bookstore, built with Node.js and Express. T
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/bookstore-api.git
-   cd bookstore-api
+   git clone https://github.com/VIJAYASRI-M/REST-API.git
+   cd Book-API
+2. **Initialize the Project**:
+   ```bash
+   npm i
+2. **Run the Application**:
+   ```bash
+   npm run start-dev
