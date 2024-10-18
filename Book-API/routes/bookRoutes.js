@@ -10,9 +10,9 @@ router.get('/',bookController.getAllBooks);
 router.get('/:id',bookController.getBookById);
 
 // protected routes
-router.post('/',authMiddleware,bookController.addBook);
-router.put('/:id',authMiddleware,bookController.updateBook);
-router.delete('/:id',authMiddleware,bookController.DeleteBook);
+router.post('/',bookController.addBook);
+router.put('/:id',bookController.updateBook);
+router.delete('/:id',bookController.DeleteBook);
 
 
 module.exports= router;
