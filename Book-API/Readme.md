@@ -35,6 +35,11 @@ A simple RESTful API for managing a bookstore, built with Node.js and Express. T
 2. **Initialize the Project**:
    ```bash
    npm i
-2. **Run the Application**:
+3. **Run the Application**:
    ```bash
    npm run start-dev
+
+### Swagger
+- [Swagger URL(local)](http://localhost:{PORT}/api-docs)
+
+
