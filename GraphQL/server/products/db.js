@@ -9,7 +9,7 @@ export default{
           price: 129.99,
           availability: true,
           images: [
-            { url: 'https://example.com/images/headphones-1.jpg', altText: 'Front view of wireless Bluetooth headphones' },
+            { url: 'https://images.pexels.com/photos/18743222/pexels-photo-18743222/free-photo-of-close-up-of-headphones.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load', altText: 'Front view of wireless Bluetooth headphones' },
             { url: 'https://example.com/images/headphones-2.jpg', altText: 'Side view of wireless Bluetooth headphones' },
           ],
           reviews: [
@@ -33,7 +33,7 @@ export default{
           price: 149.99,
           availability: true,
           images: [
-            { url: 'https://example.com/images/noise-cancelling-headphones.jpg', altText: 'Noise-cancelling headphones' }
+            { url: 'https://images.pexels.com/photos/10292806/pexels-photo-10292806.jpeg?auto=compress&cs=tinysrgb&w=600', altText: 'Noise-cancelling headphones' }
           ],
           reviews: [
             {
@@ -51,7 +51,43 @@ export default{
           price: 89.99,
           availability: true,
           images: [
-            { url: 'https://example.com/images/bluetooth-earbuds.jpg', altText: 'Bluetooth earbuds' }
+            { url: 'https://images.pexels.com/photos/6867268/pexels-photo-6867268.jpeg?auto=compress&cs=tinysrgb&w=600', altText: 'Bluetooth earbuds' }
+          ],
+          reviews: [
+            {
+              rating: 4,
+              comment: 'Good sound quality for the price. A bit uncomfortable after extended use.',
+              userId: 'user4',
+            },
+          ],
+          relatedProductIds: ['12345', '67890'],
+        },
+        {
+          id: '4',
+          name: 'Bluetooth Earbuds',
+          description: 'Compact and comfortable wireless earbuds with a long-lasting battery.',
+          price: 89.99,
+          availability: true,
+          images: [
+            { url: 'https://images.pexels.com/photos/6867268/pexels-photo-6867268.jpeg?auto=compress&cs=tinysrgb&w=600', altText: 'Bluetooth earbuds' }
+          ],
+          reviews: [
+            {
+              rating: 4,
+              comment: 'Good sound quality for the price. A bit uncomfortable after extended use.',
+              userId: 'user4',
+            },
+          ],
+          relatedProductIds: ['12345', '67890'],
+        },
+        {
+          id: '5',
+          name: 'Bluetooth Earbuds',
+          description: 'Compact and comfortable wireless earbuds with a long-lasting battery.',
+          price: 89.99,
+          availability: true,
+          images: [
+            { url: 'https://images.pexels.com/photos/6867268/pexels-photo-6867268.jpeg?auto=compress&cs=tinysrgb&w=600', altText: 'Bluetooth earbuds' }
           ],
           reviews: [
             {

@@ -1,17 +1,8 @@
 import './App.css'
 import { gql, useQuery } from '@apollo/client';
+import Product from './components/Product';
+import { GET_PRODUCTS } from './utils/queries';
 
-const GET_PRODUCTS = gql`
-query Products {
-  products {
-    id
-    name
-    description
-    price
-    availability
-  }
-}
-`;
 
 function App() {
 
@@ -22,17 +13,15 @@ function App() {
   if (error) return `Error! ${error.message}`;
 
   return (
-    <>
-          {data.products.map((product) => (
-            <div key={product.id} style={{padding:'10px'}}>
-              {product.name}
-              <br />
-              {product.description}
-            </div>
-      ))}
-
-    </>
+      <div className="App">
+        {
+          data.products.map((product)=>(
+            <Product key={product.id} product={product}/>
+          ))
+        }
+      </div>
   )
 }
 
 export default App
+
