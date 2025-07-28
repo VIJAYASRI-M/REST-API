@@ -14,9 +14,10 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4        
-        with:
-          path: Node-mongo
+        uses: actions/checkout@v4   
+        
+      - name: checkout Node-mongo
+        run: cd Node-mongo
 
       - name: Install Dependencies
         run: npm ci
